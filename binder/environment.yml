@@ -62,6 +62,4 @@ dependencies:
   - xz=5.2.4
   - yaml=0.2.2
   - zlib=1.2.11
-  - pip:
-    - cvxoptklu==1.2.4
 prefix: /Users/hcui7/miniconda3/envs/andes_binder
