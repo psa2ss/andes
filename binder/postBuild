@@ -1,9 +1,9 @@
-pip install --global-option=build_ext --global-option="-I/srv/conda/envs/notebook/include" cvxoptklu
+pip install --global-option=build_ext --global-option="-I$CONDA_PREFIX/include" cvxoptklu
 
 git clone https://github.com/curent/cvxopt /tmp/cvxopt
 
 cd /tmp/cvxopt
 
-pip install --global-option=build_ext --global-option="-I/srv/conda/envs/notebook/include" .
+pip install --global-option=build_ext --global-option="-I$CONDA_PREFIX/include" .
 
 rm -rf /tmp/cvxopt
